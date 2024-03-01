@@ -5,8 +5,8 @@ body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    padding-top: 60px;
-    background-color: #c3e1fd;
+    padding-top: 30px;
+    background-color: #c2dde6;
     
    
     } 
@@ -14,12 +14,12 @@ body {
     padding: 10px 20px;
     position: fixed;
     width: calc(100% - 20px); 
-   top: 0;
+    top: 0;
     display: flex;
     align-items: center;
     z-index: 1000; 
-    border-bottom: 2px solid #000;
-    background-color:#568fcf }
+    border-bottom: 1px solid #000;
+    background-color:#bccbde }
    .logo { font-size: 1.5rem;
     /* margin-right: auto; */
     padding-right: 1000px;
@@ -31,25 +31,27 @@ body {
     text-decoration: underline;
     margin-left: 20px;
     cursor: pointer;
-    transition: all 0.5s ease;
+    transition: all 0.5s smooth;
     } 
     section { text-align: left;
-    border: 5px solid black;
+    border: 2px solid black;
     padding: 20px;
+    padding-top: 30px;
     } 
    #footer-section { 
     
     color: #000;
-    padding: 20px;
     text-align: center;
     width: 100%;
-    background-color: #81bff2e4; 
+    background-color: #bccbde; 
    }
    #footer-section img{
     padding:15px;
+    height: 70px;
+    width: 70px;
    }
      footer{
-        border-top: 2px solid #000;
+        border-top: 1px solid #000;
         
      }
   #Contact {
@@ -63,7 +65,7 @@ body {
     width: 48%;
     display: flex;
     background-color: #efefe4;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     justify-content: space-between;
     }
     .project-image { 
